@@ -1,0 +1,8 @@
+<Projects>
+	<Cupertino type="Lib"/>
+	<CupertinoTest type="App">
+		<Desktop/>
+		<Android/>
+	</CupertinoTest>
+</Projects>
+

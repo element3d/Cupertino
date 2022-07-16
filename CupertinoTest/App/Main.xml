@@ -1,0 +1,127 @@
+<Element
+    backgroundColor="glm::vec4(255)"
+    orientation="Vertical"
+    backgroundSize="Cover"
+    backgroundImage="CupertinoTest/images/Wallpaper.png"
+    >
+
+    <Element
+        width="100%"
+        orientation="Vertical">
+
+        <FontIcon
+            element="mIcon"
+            font="_s(CupertinoTest/icons.ttf)"
+            charcode="E804"
+            width='"40dp"'
+            aspectRatio="1"
+            color="glm::vec4(255)">
+        </FontIcon>
+        <Text   
+            marginTop='"10dp"'
+            element="mTime"
+            text="9:41"
+            fontSize='"60dp"'
+            textColor="glm::vec4(255)">
+        </Text>
+        <Text
+            text="Friday, July 15"
+            fontSize='"18dp"'
+            textColor="glm::vec4(255)">
+        </Text>
+
+        <Element
+         marginTop='"50dp"'
+         width="100%"
+         alignItemsHor="SpaceAround">
+            <MainMenuItem element="mAlerts" title="_s(Alerts)"></MainMenuItem>
+            <MainMenuItem element="mButtons" icon="_s(F2D1)" title="_s(Buttons)"></MainMenuItem>
+        </Element>
+
+        <Element
+            width="100%"
+            alignItemsHor="SpaceAround">
+            <MainMenuItem element="mActionSheet" icon="_s(E800)" title="_s(Action Sheet)"></MainMenuItem>
+            <MainMenuItem element="mSegControl"  icon="_s(E801)" title="_s(Segmented Control)"></MainMenuItem>
+        </Element>
+
+        <Element
+            width="100%"
+            alignItemsHor="SpaceAround">
+            <MainMenuItem element="mSlider"  icon="_s(F1DE)" title="_s(Slider)"></MainMenuItem>
+            <MainMenuItem element="mSwitch"  icon="_s(F205)" title="_s(Switch)"></MainMenuItem>
+        </Element>
+
+        <Element
+            width="100%"
+            alignItemsHor="SpaceAround">
+            <MainMenuItem element="mTabBar" icon="_s(F2D0)" title="_s(Tab Bar)"></MainMenuItem>
+            <MainMenuItem element="mTextField" icon="_s(F2D1)" title="_s(Text Field)"></MainMenuItem>
+        </Element>
+
+        <Element
+         marginTop='"50dp"'
+         width="80%"
+         alignItemsHor="SpaceBetween">
+            <Element
+                width='"50dp"'
+                aspectRatio="1"
+                backgroundColor="glm::vec4(245, 245, 245, 0.15 * 255)"
+                shapeType="Circle">
+                 <FontIcon
+                    font="_s(CupertinoTest/icons.ttf)"
+                    charcode="E805"
+                    width='"30dp"'
+                    aspectRatio="1"
+                    color="glm::vec4(255)">
+                </FontIcon>
+            </Element>
+             <Element
+                width='"50dp"'
+                aspectRatio="1"
+                backgroundColor="glm::vec4(245, 245, 245, 0.15 * 255)"
+                shapeType="Circle">
+                 <FontIcon
+                    font="_s(CupertinoTest/icons.ttf)"
+                    charcode="E802"
+                    width='"30dp"'
+                    aspectRatio="1"
+                    color="glm::vec4(255)">
+                </FontIcon>
+            </Element>
+        </Element>
+    </Element>
+
+
+  
+
+    
+       
+
+    <!-- <CuNavigationBar>
+    </CuNavigationBar>
+   
+
+    <CuSwitch
+        marginTop='"20dp"'>
+    </CuSwitch>
+    <CuSlider
+        marginTop='"20dp"'>
+    </CuSlider>
+
+     <CuSegmentedControl
+        marginTop='"20dp"'>
+        <CuSegmentedControlOption></CuSegmentedControlOption>
+        <CuSegmentedControlOption
+            backgroundColor="glm::vec4(0)"></CuSegmentedControlOption>
+    </CuSegmentedControl>
+
+    <CuTabBar marginTop='"20dp"'>
+        <CuTabBarItem></CuTabBarItem>
+        <CuTabBarItem></CuTabBarItem>
+        <CuTabBarItem></CuTabBarItem>
+    </CuTabBar> -->
+
+    <!-- <CuAlertDialog></CuAlertDialog> -->
+
+</Element>
