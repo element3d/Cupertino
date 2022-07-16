@@ -1,0 +1,24 @@
+<Element
+    width='"50dp"'
+    height='"30dp"'
+    borderRadius="all: 0.5"
+    backgroundColor="glm::vec4(199 ,199, 204, 255)"
+    padding='"2dp"'
+    alignItemsHor="Start"
+    overflow="Hidden">
+
+    <Element
+        element="mCircle"
+        height="100%"
+        aspectRatio="1"
+        backgroundColor="glm::vec4(255)"
+        shapeType="Circle">
+        <Shadow
+            offset="x: 1, y: 1"
+            color="glm::vec4(100, 100, 100, 255)"
+            opacity="1"
+            blurSize="4">
+        </Shadow>
+    </Element>
+
+</Element>

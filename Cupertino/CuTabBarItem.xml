@@ -1,0 +1,19 @@
+<Element
+    height="100%"
+    orientation="Vertical">
+   
+    <FontIcon
+        element="mIcon"
+        font="_s(CupertinoTest/icons.ttf)"
+        charcode="E804"
+        height="40%"
+        aspectRatio="1"
+        color="#007AFF">
+    </FontIcon>
+    <Text
+        element="mTitle"
+        marginTop='"4dp"'
+        textColor="#007AFF"
+        fontSize='"16dp"'>
+    </Text>
+</Element>

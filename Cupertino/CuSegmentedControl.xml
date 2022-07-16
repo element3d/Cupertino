@@ -1,0 +1,21 @@
+<Element
+    width='"400dp"'
+    height='"35dp"'
+    borderRadius='glm::vec4(e3::Dim("6dp"))'
+    backgroundColor="#76768020"
+    padding='"2dp"'>
+    <Element
+        element="mSelect"
+        height="100%"
+        scaling="Shrink"
+        positionType="Absolute"
+        borderRadius='glm::vec4(e3::Dim("6dp"))'
+        left="0"
+        backgroundColor="glm::vec4(255)">
+        <Shadow
+            offset="x: 0, y: 5"
+            blurSize="17"
+            opacity="1"
+            color="glm::vec4(100, 100, 100, 155)"></Shadow>
+    </Element>
+</Element>

@@ -1,0 +1,42 @@
+<Element
+    positionType="Absolute"
+    width="100%"
+    height="100%"
+    backgroundColor="glm::vec4(0, 0, 0, 0)"
+    visibility="Hidden"
+    alignItemsVer="End">
+
+    <Element
+        element="mContent"
+        width='"96%"'
+        borderRadius='glm::vec4(e3::Dim("20dp"))'
+        orientation="Vertical">
+
+        <Element
+            element="mTitleCont"
+            orientation="Vertical"
+            padding='"15dp"'
+            width="100%"
+            borderRadius='glm::vec4(e3::Dim("10dp"), e3::Dim("10dp"), 0, 0)'
+            backgroundColor="#F5F5F5BB">
+            <Text
+                element="mTitle"
+                text="Select Favorite Dessert"
+                fontSize='"16dp"'
+                textColor="#3C3C4399"
+                fontStyle="Bold">
+            </Text>
+            <Text
+                element="mDesc"
+                width="100%"
+                maxNumLines="5"
+                marginTop='"20dp"'
+                text="Please select your favorite type of dessert from the list below. Your selection will be used to customize the suggested list of eateries in your area."
+                fontSize='"16dp"'
+                textColor="#3C3C4399">
+            </Text>
+        </Element>
+      
+    </Element>
+
+</Element>

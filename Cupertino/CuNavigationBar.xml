@@ -1,0 +1,61 @@
+<Element
+    width="100%"
+    height='"50dp"'
+    orientation="Vertical">
+    <Element
+        width="100%"
+        height="100%"
+        backgroundColor="#F9F9F9"
+        alignItemsHor="SpaceBetween">
+        <Element
+            element="mBack"
+            width="100%"
+            scaling="Shrink"
+            alignItemsHor="Start">
+            <Element
+                element="mBackIcon"
+                width='"20dp"'
+                height='"20dp"'
+                marginLeft='"15dp"'
+                marginRight='"5dp"'>
+                <FontIcon
+                    element="mIcon"
+                    width='"20dp"'
+                    height='"20dp"'
+                    font="_s(Cupertino/icons.ttf)"
+                    charcode="E803"
+                    aspectRatio="1"
+                    color="#007AFF">
+                </FontIcon>
+            </Element>
+            <Text
+                element="mLeftTitle"
+                text="Back"
+                fontSize='"20dp"'
+                textColor="#007AFF">
+            </Text>
+        </Element>
+        <Element width="100%" scaling="Shrink">
+            <Text
+                element="mTitle"
+                text="Title"
+                fontSize='"20dp"'>
+            </Text>
+        </Element>
+        <Element width="100%" scaling="Shrink">
+            <Text
+                element="mRightTitle"
+                visibility="Hidden"
+                text="Right Title"
+                fontSize='"20dp"'
+                textColor="#007AFF"
+                marginRight='"10dp"'>
+            </Text>
+        </Element>
+    </Element>
+    <Element
+        width="100%"
+        height='"1dp"'
+        backgroundColor="#979797">
+    </Element>
+</Element>
